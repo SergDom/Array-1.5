@@ -28,7 +28,14 @@ public class Main {
 
         }
 
+        System.out.println();
+        System.out.println("Задание 3");
+        for (int i=firstArr.length-1; i>=0; i--) {
+            System.out.print(firstArr[i] + " ");}
 
+        System.out.println();
+        for (int j=secondArr.length-1; j>=0; j--) {
+            System.out.print(secondArr[j] + " ");}
 
 
 
