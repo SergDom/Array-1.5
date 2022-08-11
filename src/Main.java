@@ -19,7 +19,7 @@ public class Main {
         firstArr [1] = 2;
         firstArr [2] = 3;
         for (int i=0; i<3; i++) {
-        System.out.print(firstArr[i] + " , ");
+        System.out.print(" , " + firstArr[i]);
         }
         System.out.println();
         for (int j=0; j<3; j++) {
@@ -34,17 +34,23 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание 3");
-        for (int i=firstArr.length-1; i>=0; i--) {
-            System.out.print(firstArr[i] + " ");}
+
+        for (int i=firstArr.length-1; i>0; i--) {
+            System.out.print(firstArr[i] + " , " );}
+        if (firstArr.length >= 1) {
+            System.out.print(firstArr[0]);
+        }
 
         System.out.println();
         for (int j=secondArr.length-1; j>=0; j--) {
-            System.out.print(secondArr[j] + " ");}
+            System.out.print(secondArr[j] + " , ");}
+        if (secondArr.length >= 1) {
+            System.out.print(secondArr[0]);}
 
         System.out.println();
         System.out.println("Задание 4");
 
-        for (; i % 2 !=0; i++) {
-        System.out.print(firstArr[i] + " , ");}
+        //for (; i % 2 !=0; i++) {
+        //System.out.print(firstArr[i] + " , ");}
     }
 }
