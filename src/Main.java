@@ -37,6 +37,7 @@ public class Main {
             }
 
             System.out.println();
+
             System.out.println("Задание 3");
 
             for (int i = firstArr.length - 1; i > 0; i--) {
